@@ -1,4 +1,4 @@
-function setup() {
+function setup1() {
     var canvas = document.getElementById('myCanvas1');
     var slider = document.getElementById('slider1');
     slider.value = 0;
@@ -149,7 +149,7 @@ function setup() {
     }
     slider.addEventListener("input", draw);
     draw();
+    setup2();
 
 }
-window.onload = setup;
-
+window.onload = setup1;
