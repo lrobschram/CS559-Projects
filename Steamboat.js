@@ -1,5 +1,5 @@
 
-function setup() {
+function setup2() {
     var canvas = document.getElementById('myCanvas2');
     var context = canvas.getContext('2d');
     var slider1 = document.getElementById('slider2');
@@ -493,5 +493,3 @@ function setup() {
 
     window.requestAnimationFrame(draw);
 }
-
-window.onload = setup;
